@@ -14,5 +14,4 @@ ___
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
