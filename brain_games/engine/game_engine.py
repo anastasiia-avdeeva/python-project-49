@@ -1,7 +1,9 @@
+from random import randint
+
 import prompt
 
 from brain_games.games.calc import get_expression, solve_expression
-from brain_games.games.even import get_random_int, is_even
+from brain_games.games.even import is_even
 from brain_games.games.gcd import calculate_gcd, get_two_random_nums
 from brain_games.games.progression import (
     hide_num_in_progresion,
@@ -19,6 +21,9 @@ def print_intro(game):
             print('Find the greatest common divisor of given numbers.')
         case 'progression':
             print('What number is missing in the progression?')
+        case 'prime':
+            print('Answer "yes" if given number is prime.', end='')
+            print('Otherwise answer "no".')
 
 
 def get_question_and_answer(game: str) -> tuple:
@@ -26,7 +31,7 @@ def get_question_and_answer(game: str) -> tuple:
     answer = 0
     match game:
         case 'even':
-            question = get_random_int()
+            question = randint(1, 100)
             answer = 'yes' if is_even(int(question)) else 'no'
         case 'calc':
             [operand_1, operator_sign, operand_2] = get_expression()
