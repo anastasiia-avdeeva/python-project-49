@@ -5,7 +5,7 @@ def make_progression() -> list[str]:
     start = randint(-10, 50)
     step = randint(-10, 10)
     length = randint(5, 10)
-    return [str(start + i * step) for i in range(length - 1)]
+    return [str(start + i * step) for i in range(length)]
 
 
 def hide_num_in_progresion(progression: list) -> tuple:
