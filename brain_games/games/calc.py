@@ -18,6 +18,6 @@ def get_expression() -> str:
 
 def solve_expression(question) -> int:
     [operand_1, operator_sign, operand_2] = question.split(' ')
-    operators_dict = {'+': add, '-': sub, mul: '*'}
+    operators_dict = {'+': add, '-': sub, '*': mul}
     answer = operators_dict[operator_sign](int(operand_1), int(operand_2))
     return answer
