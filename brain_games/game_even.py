@@ -7,7 +7,6 @@ def is_even(num: int) -> bool:
     return num % 2 == 0
 
 
-# перенесла бы в другой файл для переиспользования
 def get_user_answer():
     answer = prompt.string('Your answer: ', empty=True)
     return answer or ''
@@ -23,6 +22,7 @@ def play_even(user_name: str):
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for i in range(3):
+        # Safe: not for cryptographic use
         num = randint(1, 100)
         print(f'Question: {num}')
         user_answer = get_user_answer()
