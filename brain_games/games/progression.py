@@ -4,6 +4,8 @@ from random import randint
 def make_progression() -> list[str]:
     start = randint(-10, 50)
     step = randint(-10, 10)
+    while step == 0:
+        step = randint(-10, 10)
     length = randint(5, 10)
     return [str(start + i * step) for i in range(length)]
 
