@@ -30,7 +30,9 @@ def get_right_answer(game: str, question: str) -> str | int | None:
         case 'even':
             return 'yes' if is_even(int(question)) else 'no'
         case 'calc':
-            return solve_expression(question)
+            [operand_1, operator_sign, operand_2] = question.split(' ')
+            return solve_expression(
+                int(operand_1), operator_sign, int(operand_2))
 
 
 def get_user_answer(game: str) -> str | int | None:
