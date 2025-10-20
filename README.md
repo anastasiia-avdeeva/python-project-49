@@ -35,11 +35,15 @@ ___
 
 ### Example of gameplay
 
-#### Game-even
+#### if-number_is_even game
 
 [![asciicast](https://asciinema.org/a/bFb83CBpJlXAkEIpLAu2bO5oj.svg)](https://asciinema.org/a/bFb83CBpJlXAkEIpLAu2bO5oj)
 
-#### Calculator-game
+#### Calculator game
 
 [![asciicast](https://asciinema.org/a/qt42FUfComO39stz13OJmPmYX.svg)](https://asciinema.org/a/qt42FUfComO39stz13OJmPmYX)
+
+#### Greatest-common-devisor game
+
+[![asciicast](https://asciinema.org/a/FdY2NVouSswa7ENWTV5sI76Vi.svg)](https://asciinema.org/a/FdY2NVouSswa7ENWTV5sI76Vi)
 ___
