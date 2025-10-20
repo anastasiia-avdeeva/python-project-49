@@ -46,7 +46,7 @@ ___
 
 ### Requirements
 
-* Python ≥ 3.14
+* Python ≥ 3.10
 * uv package manager
 
 ### Installation and Setup
