@@ -2,7 +2,7 @@ from random import randint
 
 
 def get_two_random_nums() -> tuple:
-    base = randint(1, 10)
+    base = randint(2, 10)
     multiplier = randint(1, 10)
     return base * multiplier, base * randint(1, 10)
 
