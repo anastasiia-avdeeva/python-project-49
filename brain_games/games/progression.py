@@ -12,5 +12,5 @@ def hide_num_in_progresion(progression: list) -> tuple:
     length = len(progression)
     rand_i = randint(0, length - 1)
     hidden_num = int(progression[rand_i])
-    result = progression[0:rand_i] + ['..'] + progression[rand_i:length]
+    result = progression[0:rand_i] + ['..'] + progression[rand_i + 1:length]
     return (" ".join(result), hidden_num)
