@@ -22,7 +22,8 @@ def play_even(user_name: str):
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
     for i in range(3):
-        # Safe: not for cryptographic use
+        # Non-security use of random is safe in this context
+        # noinspection S2245
         num = randint(1, 100)
         print(f'Question: {num}')
         user_answer = get_user_answer()
