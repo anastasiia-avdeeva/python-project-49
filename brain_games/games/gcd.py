@@ -2,7 +2,9 @@ from random import randint
 
 
 def get_two_random_nums() -> tuple:
-    return (randint(0, 100), randint(0, 100))
+    base = randint(1, 10)
+    multiplier = randint(1, 10)
+    return base * multiplier, base * randint(1, 10)
 
 
 def calculate_gcd(first_num: int, second_num: int) -> int:
