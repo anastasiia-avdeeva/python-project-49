@@ -12,10 +12,11 @@ def get_user_answer():
     return answer or ''
 
 
-def handle_wrong_answer(user_answer: str, right_answer: str, name: str):
+def handle_wrong_answer(
+        user_answer: str | int, right_answer: str | int, user_name: str):
     print(f'"{user_answer}" is wrong answer ;(.', end=' ')
     print(f'Correct answer was "{right_answer}".')
-    print(f'Let\'s try again, {name}!')
+    print(f'Let\'s try again, {user_name}!')
 
 
 def play_even(user_name: str):
