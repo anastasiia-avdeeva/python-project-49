@@ -1,7 +1,8 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "A set of 5 console games for brain training"
+authors = "Anastasiia Avdeev"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
