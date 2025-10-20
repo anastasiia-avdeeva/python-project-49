@@ -46,4 +46,8 @@ ___
 #### Greatest-common-devisor game
 
 [![asciicast](https://asciinema.org/a/FdY2NVouSswa7ENWTV5sI76Vi.svg)](https://asciinema.org/a/FdY2NVouSswa7ENWTV5sI76Vi)
+
+#### Progression game
+
+[![asciicast](https://asciinema.org/a/XAkpb3XEzG4KR3DbO2B19iXnu.svg)](https://asciinema.org/a/XAkpb3XEzG4KR3DbO2B19iXnu)
 ___
