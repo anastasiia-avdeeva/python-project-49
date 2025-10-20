@@ -3,6 +3,10 @@ import prompt
 from brain_games.games.calc import get_expression, solve_expression
 from brain_games.games.even import get_random_int, is_even
 from brain_games.games.gcd import calculate_gcd, get_two_random_nums
+from brain_games.games.progression import (
+    hide_num_in_progresion,
+    make_progression,
+)
 
 
 def print_intro(game):
@@ -13,34 +17,34 @@ def print_intro(game):
             print('What is the result of the expression?')
         case 'gcd':
             print('Find the greatest common divisor of given numbers.')
+        case 'progression':
+            print('What number is missing in the progression?')
 
 
-def get_question(game: str) -> int | str | None:
+def get_question_and_answer(game: str) -> tuple:
+    question = ''
+    answer = 0
     match game:
         case 'even':
-            return get_random_int()
+            question = get_random_int()
+            answer = 'yes' if is_even(int(question)) else 'no'
         case 'calc':
-            return get_expression()
+            [operand_1, operator_sign, operand_2] = get_expression()
+            question = f'{operand_1} {operator_sign} {operand_2}'
+            answer = solve_expression(operand_1, operator_sign, operand_2)
         case 'gcd':
             (first_num, second_num) = get_two_random_nums()
-            return f'{first_num} {second_num}'
+            question = f'{first_num} {second_num}'
+            answer = calculate_gcd(first_num, second_num)
+        case 'progression':
+            progression = make_progression()
+            [question, answer] = hide_num_in_progresion(progression)
+
+    return (question, answer)
 
 
 def ask_question(question: str) -> None:
     print(f'Question: {question}')
-
-
-def get_right_answer(game: str, question: str) -> str | int | None:
-    match game:
-        case 'even':
-            return 'yes' if is_even(int(question)) else 'no'
-        case 'calc':
-            [operand_1, operator_sign, operand_2] = question.split(' ')
-            return solve_expression(
-                int(operand_1), operator_sign, int(operand_2))
-        case 'gcd':
-            [first_num, second_num] = question.split(' ')
-            return calculate_gcd(int(first_num), int(second_num))
 
 
 def get_user_answer(game: str) -> str | int | None:
@@ -63,9 +67,8 @@ def play(user_name: str, game: str) -> None:
     print_intro(game)
 
     for i in range(3):
-        question = get_question(game)
+        [question, right_answer] = get_question_and_answer(game)
         ask_question(str(question))
-        right_answer = get_right_answer(game, str(question))
         user_answer = get_user_answer(game)
         if user_answer != right_answer:
             handle_wrong_answer(str(user_answer), str(right_answer), user_name)
