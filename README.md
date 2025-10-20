@@ -3,6 +3,13 @@
 ## About the project
 
 A set of five console games for brain training. Each game asks you questions. To win give three correct answers in a row. A wrong answer ends the game and suggests trying again
+Games:
+
+* Calculator. Arithmetic expressions that need to be calculated
+* Progression. Finding missing numbers in a sequence of numbers
+* Determining whether a number is even
+* Determining the greatest common divisor
+* Determining whether a number is prime
 
 ___
 
@@ -28,6 +35,11 @@ ___
 
 ### Example of gameplay
 
+#### Game-even
+
 [![asciicast](https://asciinema.org/a/bFb83CBpJlXAkEIpLAu2bO5oj.svg)](https://asciinema.org/a/bFb83CBpJlXAkEIpLAu2bO5oj)
 
+#### Calculator-game
+
+[![asciicast](https://asciinema.org/a/qt42FUfComO39stz13OJmPmYX.svg)](https://asciinema.org/a/qt42FUfComO39stz13OJmPmYX)
 ___
