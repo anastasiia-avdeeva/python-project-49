@@ -75,7 +75,7 @@ def handle_wrong_answer(
 def play(user_name: str, game: str) -> None:
     print_intro(game)
 
-    for i in range(3):
+    for _ in range(3):
         [question, right_answer] = get_question_and_answer(game)
         ask_question(str(question))
         user_answer = get_user_answer(game)
