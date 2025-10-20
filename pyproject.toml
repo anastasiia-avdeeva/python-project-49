@@ -2,9 +2,11 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "A set of 5 console games for brain training"
-authors = "Anastasiia Avdeev"
+authors = [
+    {name = "Anastasiia Avdeeva"},
+]
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.10"
 dependencies = [
     "prompt>=0.4.1",
 ]
