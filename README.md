@@ -51,19 +51,25 @@ ___
 
 ### Installation and Setup
 
-1. Install dependencies
+1. Clone repository
+
+    ```bash
+    git clone git@github.com:anastasiia-avdeeva/python-project-49.git
+    ```
+
+2. Install dependencies
 
     ```bash
     make install
     ```
 
-2. Build the package
+3. Build the package
 
     ```bash
     make build
     ```
 
-3. Install the package locally
+4. Install the package locally
 
     ```bash
     make package-install
@@ -75,7 +81,7 @@ ___
     make package-reinstall
     ```
 
-4. Run the games
+5. Run the games
 
     ```bash
     brain-games
