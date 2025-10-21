@@ -1,5 +1,5 @@
 from brain_games.cli import welcome_user
-from brain_games.engine.game_engine import play
+from brain_games.game_engine import play
 
 
 def main():
