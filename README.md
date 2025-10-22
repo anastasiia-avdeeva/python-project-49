@@ -1,25 +1,6 @@
 # Brain Games
 
-## About the project
-
-A set of five console games for brain training. Each game asks you questions. To win give three correct answers in a row. A wrong answer ends the game and suggests trying again
-Games:
-
-* Calculator: Arithmetic expressions that need to be calculated
-* Progression: Finding missing numbers in a sequence of numbers
-* Is number even: Determining whether a number is even
-* GCD: Determining the greatest common divisor
-* Is number prime: Determining whether a number is prime
-
-___
-
-### Hexlet tests and linter status
-
 [![Actions Status](https://github.com/anastasiia-avdeeva/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/anastasiia-avdeeva/python-project-49/actions)
-___
-
-### SonarQube Quality Metrics
-
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
@@ -30,6 +11,18 @@ ___
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
+
+___
+## About the project
+
+A set of five console games for brain training. Each game asks you questions. To win give three correct answers in a row. A wrong answer ends the game and suggests trying again
+Games:
+
+* Calculator: Arithmetic expressions that need to be calculated
+* Progression: Finding missing numbers in a sequence of numbers
+* Is number even: Determining whether a number is even
+* GCD: Determining the greatest common divisor
+* Is number prime: Determining whether a number is prime
 
 ___
 
