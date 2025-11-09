@@ -13,6 +13,7 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=anastasiia-avdeeva_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=anastasiia-avdeeva_python-project-49)
 
 ___
+
 ## About the project
 
 A set of five console games for brain training. Each game asks you questions. To win give three correct answers in a row. A wrong answer ends the game and suggests trying again
@@ -84,26 +85,3 @@ ___
     brain-progression
     brain-prime
     ```
-
-### Example of gameplay
-
-#### Is number even game
-
-[![asciicast](https://asciinema.org/a/bFb83CBpJlXAkEIpLAu2bO5oj.svg)](https://asciinema.org/a/bFb83CBpJlXAkEIpLAu2bO5oj)
-
-#### Calculator game
-
-[![asciicast](https://asciinema.org/a/qt42FUfComO39stz13OJmPmYX.svg)](https://asciinema.org/a/qt42FUfComO39stz13OJmPmYX)
-
-#### Greatest common devisor game
-
-[![asciicast](https://asciinema.org/a/FdY2NVouSswa7ENWTV5sI76Vi.svg)](https://asciinema.org/a/FdY2NVouSswa7ENWTV5sI76Vi)
-
-#### Progression game
-
-[![asciicast](https://asciinema.org/a/XAkpb3XEzG4KR3DbO2B19iXnu.svg)](https://asciinema.org/a/XAkpb3XEzG4KR3DbO2B19iXnu)
-
-#### Is number prime game
-
-[![asciicast](https://asciinema.org/a/2P8TTYFdkZayf1L99gaeiUPfG.svg)](https://asciinema.org/a/2P8TTYFdkZayf1L99gaeiUPfG)
-___
