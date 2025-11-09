@@ -19,7 +19,7 @@ def play(user_name: str, game_module) -> None:
         user_answer = prompt.string('Your answer: ')
 
         if user_answer != answer:
-            handle_wrong_answer(str(user_answer), str(answer), user_name)
+            handle_wrong_answer(user_answer, answer, user_name)
             return
         print('Correct!')
 
