@@ -12,3 +12,14 @@ def calculate_gcd(first_num: int, second_num: int) -> int:
         first_num, second_num = second_num, first_num % second_num
 
     return first_num
+
+
+def get_rules() -> str:
+    return 'Find the greatest common divisor of given numbers.'
+
+
+def get_question_and_answer() -> tuple[str, str]:
+    (first_num, second_num) = get_two_random_nums()
+    question = f'{first_num} {second_num}'
+    answer = calculate_gcd(first_num, second_num)
+    return question, str(answer)
